@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    /* color elementos */
+    --colorUno: #009ce0;
+    --colorDos: #141313;
+    --colorTres:#fff;
+    --colorCuatro: #000;
+    --colorMedio: #bec1c2;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+   
+}
+
+/* style navbar */
+
+.imgLogo{
+    width: 50px;
+    height: auto;
+}
+.spj{
+    color: var(--colorUno);
+    font-weight: 800;
+}
+
+.afip{
+    color: var(--colorDos);
+    font-weight: 400;
+    padding-left: 3px;
+}
+
+/* styles portada */
+.altura{
+    height: 50%;
+}
+.portadaTexto{
+    background-color: var(--colorMedio);
+    color: var(--colorDos);
+    opacity: 80%;
+    padding: 10px 0;
+    width: 60%;
+    margin: auto;
+}
+
+/* sección valores */
+
+h1{
+   /* border-bottom: 1px solid var(--colorUno); */
+   margin-top: 1.5rem;
+   padding: 1rem;
+   text-align: center;
+}
+
+.header{
+    position:sticky;
+    top: 0;
+    z-index:1000;
+}
+
+.imgquienessomos{
+    width: 648px;
+    height: auto;
+}
+
+/*carrusel index*/
+.blur{
+    background: rgba(255, 255, 255, 0.3); /* Fondo semitransparente para resaltar el efecto */
+  backdrop-filter: blur(10px); /* Aplica el desenfoque solo al fondo detrás del div */
+  -webkit-backdrop-filter: blur(10px); /* Para compatibilidad con Safari */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.carousel-item{
+    height: 85vh;
+}
+
+.fondoPortadaPrincipal{
+    background-image: url('../assets/img/1.png');
+    background-size: cover;
+    background-position:right center;
+    height: 85vh;
+}
+
+/*Seccion Principios empresa*/
+.cardPrincipiosEmpresa{
+    height: 75vh;
+    img{
+        height: 60%;
+    }
+}
+
+/* quienes somos */
+.quienesSomos{
+    margin-bottom:50px;
+    @media screen and (max-width: 768px){
+        margin-bottom: 0;
+    }
+}
+
+
+/* styles sección relleno */
+
+.bannerAzul{
+    background-color: var(--colorUno);
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.bannerAzul p{
+    font-size: 1.2rem;
+    color: var(--colorTres);  
+}
+
+.bannerAzul p:last-child{
+    font-size: 2rem;
+    color: var(--colorTres); 
+    text-align: center; 
+    margin-top: 10px;
+}
+
+/* styles del footer */
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 30px 0;
+}
+footer h5 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+footer ul li {
+    margin-bottom: 10px;
+}
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+footer .social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 15px;
+}
+footer .copyright {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+@media (max-width: 767px) {
+    footer .col-md-4, footer .col-md-2, footer .col-md-3 {
+        margin-bottom: 30px;
+    }
+    footer h5 {
+        margin-top: 20px;
+    }
+    footer .social-icons {
+        margin-bottom: 20px;
+    }
+}
+

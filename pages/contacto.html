@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPJAFIP</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/img/logo.png" alt="SPJafip" class="imgLogo">
+                    <span class="spj">SPJ</span><span class="spj ps-2">A.F.I.P.</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="../index.html">Home</a></li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Institucional
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="../pages/institucional.html">Autoridades</a></li>  
+                                  <li><a class="dropdown-item" href="#">Convenio CCT</a></li>
+                                  <li><a class="dropdown-item" href="#">Estatuto</a></li>
+                                  <li><a class="dropdown-item" href="#">Convenio CCM</a></li>
+                                  <li><a class="dropdown-item" href="#">Afiliaciones</a></li>
+                                </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/beneficios.html">Beneficios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/prensa.html">Prensa</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/efemerides.html">Efemérides</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/contacto.html">Contactos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container my-5">
+        <h1 class="mb-4">Contactos</h1>
+        <div class="row">
+            <div class="col-md-6" data-aos="fade-right">
+                <div class="contact-info">
+                    <h2>Información de Contacto</h2>
+                    <p><strong>Dirección:</strong> Av. Ejemplo 1234, Ciudad Autónoma de Buenos Aires</p>
+                    <p><strong>Teléfono:</strong> +54 (11) 1234-5678</p>
+                    <p><strong>Email:</strong> info@sindicatoafip.org.ar</p>
+                    <p><strong>Horario de atención:</strong> Lunes a Viernes de 9:00 a 18:00</p>
+                </div>
+                <div class="map-container mt-4">
+                    <img src="/api/placeholder/600/300" alt="Mapa" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-left">
+                <h2>Formulario de Contacto</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre completo</label>
+                        <input type="text" class="form-control" id="nombre" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="telefono" class="form-label">Teléfono</label>
+                        <input type="tel" class="form-control" id="telefono">
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" rows="5" required></textarea>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="afiliacion">
+                        <label class="form-check-label" for="afiliacion">Quiero afiliarme al sindicato</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white mt-5">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-6 col-md-4">
+                    <h5 >Navegación</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Institucional</a></li>
+                        <li><a href="#">Notificaciones</a></li>
+                        <li><a href="#">Utilidades</a></li>
+                        <li><a href="#">Invitaciones</a></li>
+                        <li><a href="#">Contactos</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4">
+                    <h5>Contacto</h5>
+                    <p>Dirección: Av. Ejemplo 1234, CABA</p>
+                    <p>Teléfono: (011) 1234-5678</p>
+                    <p>Email: info@sindicato-jerarquicos-afip.org.ar</p>
+                </div>
+                <div class="col-6 col-md-4">
+                    <h5>Redes Sociales</h5>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <!--
+                <div class="col-12 col-md-4">
+                    <img src="IMG/logo.png" alt="Logo" class="mb-3 w-25">
+                </div>
+                -->
+            </div>
+            <p class="copyright text-center">© 2023 SPJAFIP - Desarrollado by GCREA-DESIGN</p>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
+</body>
+</html>

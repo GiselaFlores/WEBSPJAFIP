@@ -30,8 +30,12 @@ body{
     font-weight: 800;
 }
 
-.negritaspj{
+.negritaspj, .bold{
     font-weight: 800;
+}
+
+.bold{
+    margin-top: 20px;
 }
 
 .afip{
@@ -93,6 +97,11 @@ h1{
     height: 85vh;
 }
 
+.bolder{
+    font-weight: 800;
+    font-size: 2rem;
+}
+
 /*Seccion Principios empresa*/
 .cardPrincipiosEmpresa{
     height: 75vh;
@@ -130,6 +139,17 @@ h1{
     margin-top: 10px;
 }
 
+/* portada de afilaiciones */
+
+.botonesAfiliacion{
+    padding: 30px;
+
+}
+
+#empresaId, #personaId{
+    display: none;
+}
+
 /* Portadas de pestañas institucional */
 .banner {
     position: relative;
@@ -153,6 +173,10 @@ h1{
 
 .bannerBeneficios{
     background-image: url('../assets/img/beneficiosbanner.png')!important;
+}
+
+.bannerAfiliaciones{
+    background-image: url('../assets/img/afiliaciones.png')!important;
 }
 
 .gris{
@@ -268,6 +292,7 @@ footer .copyright {
     }
     footer .social-icons {
         margin-bottom: 20px;
+
     }
 }
 

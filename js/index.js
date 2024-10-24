@@ -11,4 +11,3 @@ function cambiarSegundoForm() {
     personaId.style.display = "block";
     empresaId.style.display = "none";  
 }
-

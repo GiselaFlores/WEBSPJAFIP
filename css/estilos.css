@@ -306,6 +306,14 @@ footer .copyright {
     #quitarMobile{
         display: none;
     }
+
+    .mobilewrap{
+        width: 100%;
+        display: block;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 }
 
 /* boton */

@@ -57,6 +57,13 @@ body{
     margin: auto;
 }
 
+.linea{
+    width: 100px;
+    height: 50px;
+    border-top: 3px solid var(--colorUno);
+    margin: auto;
+}
+
 /* sección valores */
 
 h1{
@@ -97,22 +104,33 @@ h1{
     height: 85vh;
 }
 
-.bolder{
+.bolder, .bienestar{
     font-weight: 800;
     font-size: 2rem;
 }
 
+.logohome{
+    width: 20%;
+}
+
+.logohomeb{
+    width: 7%;
+}
+
+
 /*Seccion Principios empresa*/
 .cardPrincipiosEmpresa{
-    height: 75vh;
+    height: 30vh;
+    width: 40vh;
     img{
-        height: 60%;
+        height: 40%;
+        
     }
 }
 
 /* quienes somos */
 .quienesSomos{
-    margin-bottom:50px;
+    margin-bottom:15px;
     @media screen and (max-width: 768px){
         margin-bottom: 0;
     }
@@ -239,6 +257,13 @@ h1{
 
     #quitarMobile{
         display: none;
+    }
+
+    .lineac{
+        width: 100px;
+        height: 5px;
+        border-top: 3px solid var(--colorUno);
+        margin: auto;
     }
 }
 @media (max-width: 576px) {

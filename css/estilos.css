@@ -314,6 +314,19 @@ footer .copyright {
         flex-wrap: wrap;
         flex-direction: column;
     }
+
+    .margenmobile{
+        margin-top: 3rem;
+    }
+
+    iframe{
+        width: 380px;
+    }
+
+    .margenCon{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
 }
 
 /* boton */

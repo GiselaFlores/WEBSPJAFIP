@@ -86,50 +86,177 @@
                 <div>
                     <form class="row">
                         <div class="col-md-6" data-aos="fade-right">
+                            <h2 class="my-3">Información de la empresa:</h2>
+
                             <div class="mb-3">
-                                <label for="nombre" class="form-label">Nombre completo</label>
-                                <input type="text" class="form-control" id="nombre" required>
+                                <label for="razonsocial" class="form-label">Razón social:</label>
+                                <input type="text" class="form-control" id="razonsocial" required>
                             </div>
+
+                            <div class="mb-3">
+                                <label for="cuit" class="form-label">CUIT:</label>
+                                <input type="text" class="form-control" placeholder="Sin guiones ni espacios" id="cuit" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="actividad" class="form-label">Actividad:</label>
+                                <input type="text" class="form-control" id="actividad" required>
+                            </div>
+
+                            
+                            <div class="mb-3">
+                                <label for="domicilio" class="form-label">Domicilio real:</label>
+                                <input type="text" class="form-control" id="domicilio" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="localidad" class="form-label">Localidad:</label>
+                                <input type="text" class="form-control" id="localidad" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="provincia" class="form-label">Provincia:</label>
+                                <input type="text" class="form-control" id="provincia" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="cp" class="form-label">CP:</label>
+                                <input type="text" class="form-control" id="cp" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="domiciliof" class="form-label">Domicilio fiscal:</label>
+                                <input type="text" class="form-control" id="domiciliof" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="localidadf" class="form-label">Localidad:</label>
+                                <input type="text" class="form-control" id="localidadf" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="provinciaf" class="form-label">Provincia:</label>
+                                <input type="text" class="form-control" id="provinciaf" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="cpf" class="form-label">CP:</label>
+                                <input type="text" class="form-control" id="cpf" required>
+                            </div>
+
                             <div class="mb-3">
                                 <label for="email" class="form-label">Correo electrónico</label>
                                 <input type="email" class="form-control" id="email" required>
                             </div>
+
                             <div class="mb-3">
                                 <label for="telefono" class="form-label">Teléfono</label>
                                 <input type="tel" class="form-control" id="telefono">
                             </div>
+
                             <div class="mb-3">
-                                <label for="mensaje" class="form-label">Mensaje</label>
-                                <textarea class="form-control" id="mensaje" rows="5" required></textarea>
+                                <label for="cantempleados" class="form-label">Cantidad de empleados:</label>
+                                <input type="text" class="form-control" id="cantempleados" required>
                             </div>
-                            <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="afiliacion">
-                                <label class="form-check-label" for="afiliacion">Quiero afiliarme al sindicato</label>
+
+                            <div class="mb-3">
+                                <label for="dependencia" class="form-label">Dependencia a la que revisten N°:</label>
+                                <input type="text" class="form-control" id="dependencia" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="entidadpublica" class="form-label">Entidad pública:</label>
+                               
+                                    <input type="radio" class="form-check-input" id="afiliacion" name="radio">
+                                    <label class="form-check-label" for="afiliacion">Si</label>
+                            
+                                    <input type="radio" class="form-check-input" id="afiliacion2" name="radio" checked>
+                                    <label class="form-check-label" for="afiliacion2">No</label>
                             </div>
                         </div>
-                        
+
                         <div class="col-md-6" data-aos="fade-left">
+                            <h2 class="my-3">Información del representante legal:</h2>
+
                             <div class="mb-3">
-                                <label for="nombre" class="form-label">Nombre completo</label>
+                                <label for="nombre" class="form-label">Nombre completo:</label>
                                 <input type="text" class="form-control" id="nombre" required>
                             </div>
+
                             <div class="mb-3">
-                                <label for="email" class="form-label">Correo electrónico</label>
-                                <input type="email" class="form-control" id="email" required>
+                                <label for="dni" class="form-label">DNI:</label>
+                                <input type="text" class="form-control" placeholder="Sin puntos ni espacios" id="dni" required>
                             </div>
+
                             <div class="mb-3">
-                                <label for="telefono" class="form-label">Teléfono</label>
-                                <input type="tel" class="form-control" id="telefono">
+                                <label for="cuil" class="form-label">CUIL:</label>
+                                <input type="text" class="form-control" placeholder="Sin guiones ni espacios" id="cuil" required>
                             </div>
+
                             <div class="mb-3">
-                                <label for="mensaje" class="form-label">Mensaje</label>
-                                <textarea class="form-control" id="mensaje" rows="5" required></textarea>
+                                <label for="fnac" class="form-label">Fecha de nacimiento:</label>
+                                <input type="date" class="form-control" id="fnac" required>
                             </div>
-                            <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="afiliacion">
-                                <label class="form-check-label" for="afiliacion">Quiero afiliarme al sindicato</label>
+                            
+                            <div class="mb-3">
+                                <label for="nacionalidad" class="form-label">Nacionalidad:</label>
+                                <input type="text" class="form-control" id="nacionalidad" required>
                             </div>
-                            <button type="submit" class="btn btn-primary">Enviar mensaje</button>   
+
+                            <div class="mb-3">
+                                <label for="domicilior" class="form-label">Domicilio:</label>
+                                <input type="text" class="form-control" id="domicilior" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="localidad" class="form-label">Localidad:</label>
+                                <input type="text" class="form-control" id="localidad" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="provincia" class="form-label">Provincia:</label>
+                                <input type="text" class="form-control" id="provincia" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="cp" class="form-label">CP:</label>
+                                <input type="text" class="form-control" id="cp" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="civil" class="form-label">Estado civil:</label>
+                                <input type="text" class="form-control" id="civil" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="emailr" class="form-label">Correo electrónico</label>
+                                <input type="email" class="form-control" id="emailr" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="telefonor" class="form-label">Teléfono</label>
+                                <input type="tel" class="form-control" id="telefonor">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="ingreso" class="form-label">Fecha de ingreso:</label>
+                                <input type="text" class="form-control" id="ingreso" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="cargo" class="form-label">Cargo que desempeña:</label>
+                                <input type="text" class="form-control" id="cargo" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="telefonol" class="form-label">Teléfono laboral:</label>
+                                <input type="tel" class="form-control" id="telefonol">
+                            </div>
+
+                            <div class="d-blok d-flex justify-content-end mt-4">
+                                <button type="submit" class="btn btn-primary ">Enviar mensaje</button>
+                            </div>
+                               
                         </div>
                     </form>
                 </div>
@@ -140,52 +267,115 @@
             <div class="container my-5">
                 <h1 class="mb-4">Afiliación para personas</h1>
                 <div>
+                    <h2 class="my-3">Información personal:</h2>
                     <form class="row">
                         <div class="col-md-6" data-aos="fade-right">
+                            
                             <div class="mb-3">
-                                <label for="nombre" class="form-label">Nombre completo</label>
+                                <label for="nombre" class="form-label">Nombre completo:</label>
                                 <input type="text" class="form-control" id="nombre" required>
                             </div>
+
                             <div class="mb-3">
-                                <label for="email" class="form-label">Correo electrónico</label>
-                                <input type="email" class="form-control" id="email" required>
+                                <label for="dni" class="form-label">DNI:</label>
+                                <input type="text" class="form-control" placeholder="Sin puntos ni espacios" id="dni" required>
                             </div>
+
                             <div class="mb-3">
-                                <label for="telefono" class="form-label">Teléfono</label>
-                                <input type="tel" class="form-control" id="telefono">
+                                <label for="cuil" class="form-label">CUIL:</label>
+                                <input type="text" class="form-control" placeholder="Sin guiones ni espacios" id="cuil" required>
                             </div>
+
                             <div class="mb-3">
-                                <label for="mensaje" class="form-label">Mensaje</label>
-                                <textarea class="form-control" id="mensaje" rows="5" required></textarea>
+                                <label for="fnac" class="form-label">Fecha de nacimiento:</label>
+                                <input type="date" class="form-control" id="fnac" required>
                             </div>
-                            <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="afiliacion">
-                                <label class="form-check-label" for="afiliacion">Quiero afiliarme al sindicato</label>
+
+                            <div class="mb-3">
+                                <label for="civil" class="form-label">Estado civil:</label>
+                                <input type="text" class="form-control" id="civil" required>
                             </div>
+                            
+                            <div class="mb-3">
+                                <label for="nacionalidad" class="form-label">Nacionalidad:</label>
+                                <input type="text" class="form-control" id="nacionalidad" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="domicilior" class="form-label">Domicilio:</label>
+                                <input type="text" class="form-control" id="domicilior" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="localidad" class="form-label">Localidad:</label>
+                                <input type="text" class="form-control" id="localidad" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="provincia" class="form-label">Provincia:</label>
+                                <input type="text" class="form-control" id="provincia" required>
+                            </div> 
+
+                            <div class="mb-3">
+                                <label for="cp" class="form-label">CP:</label>
+                                <input type="text" class="form-control" id="cp" required>
+                            </div>
+
                         </div>
-                        
+
                         <div class="col-md-6" data-aos="fade-left">
+                            
                             <div class="mb-3">
-                                <label for="nombre" class="form-label">Nombre completo</label>
-                                <input type="text" class="form-control" id="nombre" required>
+                                <label for="emailr" class="form-label">Correo electrónico</label>
+                                <input type="email" class="form-control" id="emailr" required>
                             </div>
+
                             <div class="mb-3">
-                                <label for="email" class="form-label">Correo electrónico</label>
-                                <input type="email" class="form-control" id="email" required>
+                                <label for="telefonor" class="form-label">Teléfono</label>
+                                <input type="tel" class="form-control" id="telefonor">
                             </div>
+
+                            <h2 class="mt-5 mb-3">Información de la empresa:</h2>
+
                             <div class="mb-3">
-                                <label for="telefono" class="form-label">Teléfono</label>
-                                <input type="tel" class="form-control" id="telefono">
+                                <label for="ingreso" class="form-label">Fecha de ingreso:</label>
+                                <input type="text" class="form-control" id="ingreso" required>
                             </div>
+
                             <div class="mb-3">
-                                <label for="mensaje" class="form-label">Mensaje</label>
-                                <textarea class="form-control" id="mensaje" rows="5" required></textarea>
+                                <label for="cargo" class="form-label">Cargo que desempeña:</label>
+                                <input type="text" class="form-control" id="cargo" required>
                             </div>
-                            <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="afiliacion">
-                                <label class="form-check-label" for="afiliacion">Quiero afiliarme al sindicato</label>
+
+                            <div class="mb-3">
+                                <label for="telefonol" class="form-label">Teléfono laboral:</label>
+                                <input type="tel" class="form-control" id="telefonol">
                             </div>
-                            <button type="submit" class="btn btn-primary">Enviar mensaje</button>   
+
+                            <div class="mb-3">
+                                <label for="grupo" class="form-label">Grupo:</label>
+                                <input type="text" class="form-control" id="grupo" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="sector" class="form-label">Sector:</label>
+                                <input type="text" class="form-control" id="sector" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="entidadpublica" class="form-label">Entidad pública:</label>
+                               
+                                    <input type="radio" class="form-check-input" id="afiliacion" name="radio">
+                                    <label class="form-check-label" for="afiliacion">Si</label>
+                            
+                                    <input type="radio" class="form-check-input" id="afiliacion2" name="radio" checked>
+                                    <label class="form-check-label" for="afiliacion2">No</label>
+                            </div>
+
+                            <div class="d-blok d-flex justify-content-end mt-4">
+                                <button type="submit" class="btn btn-primary ">Enviar mensaje</button>
+                            </div>
+
                         </div>
                     </form>
                 </div>
@@ -261,9 +451,9 @@
                 </div>
                 <div class="col-6 col-md-4">
                     <h5>Contacto</h5>
-                    <p>Dirección:</p>
-                    <p>Teléfono: +54 9 11 22469519</p>
-                    <p>Email: </p>
+                    <p>Dirección: Suipacha 255 1° piso Depto. A</p>
+                    <p>Teléfono: (11) 4767-9317</p>
+                    <p>Email: info@upjafip.org </p>
                 </div>
                 <div class="col-6 col-md-4">
                     <h5>Redes Sociales</h5>
